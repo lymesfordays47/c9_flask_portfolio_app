@@ -84,6 +84,11 @@ def python_apps_page():
 	# testing stuff
 	return render_template('python_apps.html')
 
+@app.route('/java_apps')
+def java_apps_page():
+	# testing stuff
+	return render_template('java_apps.html')
+
 
 @app.route('/blog', methods=['GET'])
 def blog_page():
